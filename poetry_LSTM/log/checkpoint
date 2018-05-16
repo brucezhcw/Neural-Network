@@ -1,0 +1,6 @@
+model_checkpoint_path: "E:\\Neural-Network\\poetry_LSTM\\Char-RNN-TensorFlow\\model\\chinese_poetry\\model-10000"
+all_model_checkpoint_paths: "E:\\Neural-Network\\poetry_LSTM\\Char-RNN-TensorFlow\\model\\chinese_poetry\\model-6000"
+all_model_checkpoint_paths: "E:\\Neural-Network\\poetry_LSTM\\Char-RNN-TensorFlow\\model\\chinese_poetry\\model-7000"
+all_model_checkpoint_paths: "E:\\Neural-Network\\poetry_LSTM\\Char-RNN-TensorFlow\\model\\chinese_poetry\\model-8000"
+all_model_checkpoint_paths: "E:\\Neural-Network\\poetry_LSTM\\Char-RNN-TensorFlow\\model\\chinese_poetry\\model-9000"
+all_model_checkpoint_paths: "E:\\Neural-Network\\poetry_LSTM\\Char-RNN-TensorFlow\\model\\chinese_poetry\\model-10000"
