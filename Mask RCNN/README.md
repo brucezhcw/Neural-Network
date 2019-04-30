@@ -16,3 +16,7 @@ for file in json_file:
 数据集制作完毕运行[shapes_train.py](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/shapes_train.py)开始训练模型，开始先训练Mask R-CNN的‘head’网络部分，如果硬件条件允许的话后期之后可以finetune整个网络
 
 最后运行[shapes_test.py](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/shapes_test.py)测试单张图片的识别效果
+
+识别效果如下：
+![test_image](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/test_images/1.png)
+![test_image](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/test_images/5.png)
