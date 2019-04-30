@@ -1,5 +1,5 @@
-项目参考何凯明团队研发的Mask R-CNN检测网络：https://github.com/matterport/Mask_RCNN
-数据集的制作主要用到了labelme标注工具，标记图片将产生json文档，我们按照下面的步骤就可以生成dataset：
+项目参考何凯明团队研发的Mask R-CNN目标检测网络：https://github.com/matterport/Mask_RCNN
+用labelme标注工具完成数据集的制作，标记每张图片将产生json文档，我们按照下面的步骤就可以生成dataset：
 1. 如果是将单个json文件生成数据集，则运行命令：
  \anaconda安装目录\envs\labelme\Scripts\label_json_to_dataset.exe   \保存xxx.json文件目录\xxx.json 
 会成生成五个文件 img.png，info.yaml，label.png，label_names.txt，label_viz.png.其中label.png即是我们要的mask了.
