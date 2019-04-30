@@ -13,6 +13,6 @@ for file in json_file:
         os.system("python D:\\Anaconda3\\envs\\labelme\\Scripts\\labelme_json_to_dataset.exe %s"%(path + file))
 
 
-数据集制作完毕运行shapes_train.py开始训练模型，开始先训练Mask R-CNN的‘head’网络部分，如果硬件条件允许的话后期之后可以finetune整个网络
+数据集制作完毕运行[shapes_train.py](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/shapes_train.py)开始训练模型，开始先训练Mask R-CNN的‘head’网络部分，如果硬件条件允许的话后期之后可以finetune整个网络
 
 最后运行[shapes_test.py](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/shapes_test.py)测试单张图片的识别效果
