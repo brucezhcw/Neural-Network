@@ -1,0 +1,4 @@
+_background_
+bottle1
+bowl1
+robot1
