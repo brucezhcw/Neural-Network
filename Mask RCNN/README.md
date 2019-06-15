@@ -5,12 +5,19 @@
 会成生成五个文件 img.png，info.yaml，label.png，label_names.txt，label_viz.png.其中label.png即是我们要的mask了.
 ![img.png](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/image/0000.png)![label.png](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/mask/0000.png)![label_viz.png](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/viz/0000.png)
 2. 将批量的json文件生成数据集，编写python脚本如下：
+
 import os
+
 path = 'E:\\label_data\\'  # path是存放json和img的文件路径，需要将json和原始img文件放在一个文件夹下
+
 json_file = os.listdir(path)
+
 for file in json_file:
+
     if 'json' in file:
+    
         os.system("python D:\\Anaconda3\\envs\\labelme\\Scripts\\labelme_json_to_dataset.exe %s"%(path + file))
+
 
 
 数据集制作完毕运行[shapes_train.py](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/shapes_train.py)开始训练模型，开始先训练Mask R-CNN的‘head’网络部分，如果硬件条件允许的话后期之后可以finetune整个网络
