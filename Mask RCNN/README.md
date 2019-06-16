@@ -27,3 +27,5 @@ for file in json_file:
 识别效果如下：
 ![test_image](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/test_images/1.png)
 ![test_image](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/test_images/5.png)
+![test_image](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/test_images/6.png)
+![test_image](https://github.com/brucezhcw/Neural-Network/blob/master/Mask%20RCNN/test_images/9.png)
